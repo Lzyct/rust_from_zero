@@ -32,9 +32,9 @@ pub(crate) fn guess_game() {
                     println!("⛔️ Too small!\n⚠️ You have {} attempts left", &attempts);
                     println!("-------------------------------------------------");
                 } else {
-                    println!("--------------------");
-                    println!("You lose! 😭😭😭");
-                    println!("---------------------\n");
+                    println!("-----------------------------------");
+                    println!("You lose! The secret number was: {}", secret_number);
+                    println!("-----------------------------------\n");
                 }
             }
             Ordering::Equal => {
@@ -48,9 +48,9 @@ pub(crate) fn guess_game() {
                     println!("⛔️ Too big!\n⚠️ You have {} attempts left", &attempts);
                     println!("-------------------------------------------------");
                 } else {
-                    println!("--------------------");
-                    println!("You lose! 😭😭😭");
-                    println!("---------------------\n");
+                    println!("-----------------------------------");
+                    println!("You lose! The secret number was: {}", secret_number);
+                    println!("-----------------------------------\n");
                 }
             }
         }
