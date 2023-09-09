@@ -1,11 +1,15 @@
-mod guess_game;
+// mod guess_game;
+mod variables_mutability;
 
 
 fn main() {
     println!("\n============================");
     println!("      Hello, Lzyct!         ");
     println!("============================\n");
-    guess_game::guess_game();
+    // Comment guess_game;
+    // guess_game::guess_game();
+
+    variables_mutability::variable_mutability();
 }
 
 
