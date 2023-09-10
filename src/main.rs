@@ -5,7 +5,9 @@
 
 
 // mod control_flow;
-mod references_borrowing;
+// mod references_borrowing;
+
+mod slice;
 
 fn main() {
     println!("\n============================");
@@ -26,7 +28,12 @@ fn main() {
     // Comment control_flow;
     // control_flow::control_flow();
 
-    references_borrowing::references_borrowing();
+    // Comment references_borrowing;
+    // references_borrowing::references_borrowing();
+
+    slice::slice();
+
+
 }
 
 
