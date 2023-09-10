@@ -7,7 +7,8 @@
 // mod control_flow;
 // mod references_borrowing;
 
-mod slice;
+// mod slice;
+mod structs;
 
 fn main() {
     println!("\n============================");
@@ -31,9 +32,10 @@ fn main() {
     // Comment references_borrowing;
     // references_borrowing::references_borrowing();
 
-    slice::slice();
+    // Comment slice;
+    // slice::slice();
 
-
+    structs::structs();
 }
 
 
