@@ -1,8 +1,10 @@
 // mod guess_game;
 // mod variables_mutability;
 // mod data_types;
-mod functions_comments;
+// mod functions_comments;
 
+
+mod control_flow;
 
 fn main() {
     println!("\n============================");
@@ -17,7 +19,10 @@ fn main() {
     // Comment data_types;
     // data_types::data_types();
 
-    functions_comments::functions_comments();
+    // Comment functions_comments;
+    // functions_comments::functions_comments();
+
+    control_flow::control_flow();
 }
 
 
