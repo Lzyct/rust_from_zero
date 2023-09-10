@@ -2,6 +2,7 @@ use std::cmp::Ordering;
 use std::io;
 use rand::Rng;
 
+// 2. Programming a Guessing Game
 pub(crate) fn guess_game() {
     let mut secret_number = random_number();
     let mut attempts = 5;

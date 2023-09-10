@@ -1,3 +1,4 @@
+// 3. Common Programming Concepts : Variables and Mutability
 pub(crate) fn variable_mutability() {
     let mut x = 5;
     println!("The value of x is: {}", x);

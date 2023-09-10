@@ -1,3 +1,4 @@
+// 3. Common Programming Concepts : Data Types
 pub(crate) fn data_types() {
     // Should define data types
     let guess: u8 = "42".parse().expect("Not a number!");
