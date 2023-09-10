@@ -1,5 +1,7 @@
 // mod guess_game;
-mod variables_mutability;
+// mod variables_mutability;
+
+mod data_types;
 
 
 fn main() {
@@ -9,7 +11,10 @@ fn main() {
     // Comment guess_game;
     // guess_game::guess_game();
 
-    variables_mutability::variable_mutability();
+    // Comment variables_mutability;
+    // variables_mutability::variable_mutability();
+
+    data_types::data_types();
 }
 
 
