@@ -8,7 +8,8 @@
 // mod references_borrowing;
 
 // mod slice;
-mod structs;
+// mod structs;
+mod enums_pattern_matching;
 
 fn main() {
     println!("\n============================");
@@ -35,7 +36,10 @@ fn main() {
     // Comment slice;
     // slice::slice();
 
-    structs::structs();
+    // Comment structs;
+    // structs::structs();
+
+    enums_pattern_matching::enums_patter_matching();
 }
 
 
