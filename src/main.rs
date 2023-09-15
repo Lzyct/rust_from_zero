@@ -10,7 +10,8 @@
 // mod slice;
 // mod structs;
 // mod enums_pattern_matching;
-mod collections;
+// mod collections;
+mod error_handler;
 
 fn main() {
     println!("\n============================");
@@ -43,7 +44,10 @@ fn main() {
     // Comment enums_pattern_matching;
     // enums_pattern_matching::enums_patter_matching();
 
-    collections::collections();
+    // Comment collections;
+    // collections::collections();
+
+    error_handler::error_handler();
 }
 
 
