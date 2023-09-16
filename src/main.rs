@@ -11,7 +11,8 @@
 // mod structs;
 // mod enums_pattern_matching;
 // mod collections;
-mod error_handler;
+// mod error_handler;
+mod generic_types;
 
 fn main() {
     println!("\n============================");
@@ -47,7 +48,10 @@ fn main() {
     // Comment collections;
     // collections::collections();
 
-    error_handler::error_handler();
+    // Comment error_handler;
+    // error_handler::error_handler();
+
+    generic_types::generic_types();
 }
 
 
