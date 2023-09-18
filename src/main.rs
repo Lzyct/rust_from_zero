@@ -15,7 +15,8 @@
 // mod generic_types;
 // mod traits;
 // mod lifetimes;
-mod test_part1;
+// mod test_part1;
+mod closures;
 
 fn main() {
     println!("\n============================");
@@ -62,6 +63,8 @@ fn main() {
 
     // Comment lifetimes;
     // lifetimes::lifetimes();
+
+    closures::closures();
 }
 
 
