@@ -7,11 +7,17 @@ mod tests {
 
     #[test]
     fn it_works_1() -> Result<(),String>{
-        if 2 + 3 == 4 {
+        if 2 + 2 == 4 {
             Ok(())
         }else{
             Err(String::from("two plus two does not equal four"))
         }
+    }
+
+    #[test]
+    #[ignore]
+    fn expensive_test() {
+       // Test takes an hour to run
     }
 
     // #[test]
