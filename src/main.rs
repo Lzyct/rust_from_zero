@@ -16,7 +16,8 @@
 // mod traits;
 // mod lifetimes;
 // mod test_part1;
-mod closures;
+// mod closures;
+mod iterators;
 
 fn main() {
     println!("\n============================");
@@ -64,7 +65,10 @@ fn main() {
     // Comment lifetimes;
     // lifetimes::lifetimes();
 
-    closures::closures();
+    // Comment closures;
+    // closures::closures();
+
+    iterators::iterators();
 }
 
 
