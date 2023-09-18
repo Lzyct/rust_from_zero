@@ -12,7 +12,8 @@
 // mod enums_pattern_matching;
 // mod collections;
 // mod error_handler;
-mod generic_types;
+// mod generic_types;
+mod traits;
 
 fn main() {
     println!("\n============================");
@@ -51,7 +52,10 @@ fn main() {
     // Comment error_handler;
     // error_handler::error_handler();
 
-    generic_types::generic_types();
+    // Comment generic_types;
+    // generic_types::generic_types();
+
+    traits::traits();
 }
 
 
