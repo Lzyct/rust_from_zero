@@ -13,7 +13,8 @@
 // mod collections;
 // mod error_handler;
 // mod generic_types;
-mod traits;
+// mod traits;
+mod lifetimes;
 
 fn main() {
     println!("\n============================");
@@ -55,7 +56,10 @@ fn main() {
     // Comment generic_types;
     // generic_types::generic_types();
 
-    traits::traits();
+    // Comment traits;
+    // traits::traits();
+
+    lifetimes::lifetimes();
 }
 
 
