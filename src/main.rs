@@ -22,7 +22,8 @@
 // mod box_smart_pointer;
 // mod concurrency;
 // mod concurrency_message;
-mod concurrency_state;
+// mod concurrency_state;
+mod pattern_matching;
 
 fn main() {
     println!("\n============================");
@@ -88,7 +89,10 @@ fn main() {
     // Comment concurrency_message;
     // concurrency_message::concurrency_message();
 
-    concurrency_state::concurrency_state();
+    // Comment concurrency_state;
+    // concurrency_state::concurrency_state();
+
+    pattern_matching::pattern_matching();
 }
 
 
