@@ -23,7 +23,8 @@
 // mod concurrency;
 // mod concurrency_message;
 // mod concurrency_state;
-mod pattern_matching;
+// mod pattern_matching;
+mod pattern_syntax;
 
 fn main() {
     println!("\n============================");
@@ -92,7 +93,11 @@ fn main() {
     // Comment concurrency_state;
     // concurrency_state::concurrency_state();
 
-    pattern_matching::pattern_matching();
+    // Comment pattern_matching;
+    // pattern_matching::pattern_matching();
+
+    // Comment pattern_syntax;
+    pattern_syntax::pattern_syntax();
 }
 
 
