@@ -18,7 +18,8 @@
 // mod test_part1;
 // mod closures;
 // mod iterators;
-mod iterators2;
+// mod iterators2;
+mod box_smart_pointer;
 
 fn main() {
     println!("\n============================");
@@ -72,7 +73,10 @@ fn main() {
     // Comment iterators;
     // iterators::iterators();
 
-    iterators2::iterators2();
+    // Comment iterators2;
+    // iterators2::iterators2();
+
+    box_smart_pointer::box_smart_pointer();
 }
 
 
