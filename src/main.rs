@@ -20,7 +20,8 @@
 // mod iterators;
 // mod iterators2;
 // mod box_smart_pointer;
-mod concurrency;
+// mod concurrency;
+mod concurrency_message;
 
 fn main() {
     println!("\n============================");
@@ -80,7 +81,10 @@ fn main() {
     // Comment box_smart_pointer;
     // box_smart_pointer::box_smart_pointer();
 
-    concurrency::concurrency();
+    // Comment concurrency;
+    // concurrency::concurrency();
+
+    concurrency_message::concurrency_message();
 }
 
 
