@@ -26,7 +26,8 @@
 // mod pattern_matching;
 // mod pattern_syntax;
 // mod advance_function_closures;
-mod advance_types;
+// mod advance_types;
+mod macros;
 
 fn main() {
     println!("\n============================");
@@ -104,7 +105,10 @@ fn main() {
     // Comment advance_function_closures;
     // advance_function_closures::advance_function_closures();
 
-    advance_types::advance_types();
+    // Comment advance_types;
+    // advance_types::advance_types();
+
+    macros::macros();
 }
 
 
