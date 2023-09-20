@@ -25,7 +25,8 @@
 // mod concurrency_state;
 // mod pattern_matching;
 // mod pattern_syntax;
-mod advance_function_closures;
+// mod advance_function_closures;
+mod advance_types;
 
 fn main() {
     println!("\n============================");
@@ -100,7 +101,10 @@ fn main() {
     // Comment pattern_syntax;
     // pattern_syntax::pattern_syntax();
 
-    advance_function_closures::advance_function_closures();
+    // Comment advance_function_closures;
+    // advance_function_closures::advance_function_closures();
+
+    advance_types::advance_types();
 }
 
 
